@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Vilith testing html">
+    <meta name="author" content="Vilith">
+    <title>Shopping List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="bg-light py-3 text-center">
+      <h1>My Shopping List</h1>
+      <p class="lead">Add groceries to list by input items in field below</p>
+    </header>  
+
+    <!-- Input section -->
+    <section class="input-section">
+    <input type="text" id="textInput" placeholder="Add grocery">
+    <button onclick="addItem()">Add</button>
+    </section>     
+
+
+    <ul id="shoppingList"></ul>
+
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Vilith. All rights reserved.</p>
+            <p class="mb-0">Webmaster: <a href="mailto:webmaster@example.com"
+                    class="text-white">webmaster@example.com</a></p>
+        </div>
+    </footer>
+
+    <script src="todo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

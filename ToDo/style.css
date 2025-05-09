@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #f9f9f9;
+}
+
+input {
+    padding: 0.5em;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.5em 1em;
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+li {
+  background-color: #fff;
+  padding: 0.75em;
+  margin-bottom: 0.5em;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
+
+li.added {
+  background-color: #291b7a;   
+  color: #291b7a;
+}
+
+li button {
+  margin-left: 1em;
+  padding: 0.1em 0.6em;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
